@@ -15,7 +15,38 @@
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+<style type="text/css">
+    
 
+.text p {
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: black;
+}
+
+/* Animation */
+.text p  {
+  animation: animated-text 4s steps(20,end) 1s 1 normal both,
+             animated-cursor 600ms steps(20,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 342px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
+}
+</style>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light navbar-floating">
         <div class="container">
@@ -52,7 +83,7 @@
                 <div class="row align-items-center h-100">
                     <div class="col-lg-6 wow fadeInUp">
                         <!-- <div class="badge mb-2"><span class="icon mr-1"><span class="mai-globe"></span></span> #2 Editor Choice App of 2020</div> -->
-                        <h1 class="mb-4">Make “feeling good” an everyday thing.
+                        <h1 class="mb-4"><div class="text"><p>Make “feeling good” </p>an everyday thing.</div>
                         </h1>
                         <p class="mb-4">A personalised health subscription that puts you first. Your daily dose of health & happiness delivered to your door with Aiwo.</p>
                         <a href="#" class="btn btn-primary rounded-pill">Take the Quize!</a>
