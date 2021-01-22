@@ -2402,6 +2402,8 @@ hr {
 
 .pricing-item.active {
   background-image: url(../img/pricing_pattern.svg);
+   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .active .pricing-header h1 {
