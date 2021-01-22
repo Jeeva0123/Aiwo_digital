@@ -16,41 +16,52 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <style type="text/css">
-    
-.text{
-    font-family: 'Source Code Pro', monospace;  
-     font-size: 35px;
+.text {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 35px;
 }
+
 .text p {
-        margin-bottom: -10px;   
-  border-right: solid 3px rgba(0,255,0,.75);
-  white-space: nowrap;
-  overflow: hidden;    
-  font-family: 'Source Code Pro', monospace;  
-  font-size: 35px;
-  color: black;
+    margin-bottom: -10px;
+    border-right: solid 3px rgba(0, 255, 0, .75);
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 35px;
+    color: black;
 }
 
 /* Animation */
-.text p  {
-  animation: animated-text 4s steps(20,end) 1s 1 normal both,
-             animated-cursor 600ms steps(20,end) infinite;
+.text p {
+    animation: animated-text 4s steps(20, end) 1s 1 normal both,
+        animated-cursor 600ms steps(20, end) infinite;
 }
 
 /* text animation */
 
-@keyframes animated-text{
-  from{width: 0;}
-  to{width: 300px;}
+@keyframes animated-text {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 300px;
+    }
 }
 
 /* cursor animations */
 
-@keyframes animated-cursor{
-  from{border-right-color: rgba(0,255,0,.75);}
-  to{border-right-color: transparent;}
+@keyframes animated-cursor {
+    from {
+        border-right-color: rgba(0, 255, 0, .75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
 }
 </style>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light navbar-floating">
         <div class="container">
@@ -62,23 +73,22 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarToggler">
                 <ul class="navbar-nav ml-lg-5 mt-3 mt-lg-0">
-                     <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">Product</a>
                     </li>
                     <li class="nav-item">
-                              <a class="nav-link" href="test.html"> Book consultation</a>
+                        <a class="nav-link" href="test.html"> Book consultation</a>
                     </li>
                     <li class="nav-item">
-                              <a class="nav-link" href="test.html">Test</a>
+                        <a class="nav-link" href="test.html">Test</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
-      
             </div>
         </div>
     </nav>
@@ -88,7 +98,8 @@
                 <div class="row align-items-center h-100">
                     <div class="col-lg-6 wow fadeInUp">
                         <!-- <div class="badge mb-2"><span class="icon mr-1"><span class="mai-globe"></span></span> #2 Editor Choice App of 2020</div> -->
-                        <h1 class="mb-4"><div class="text">Make<p>“feeling good”</p><span>an everyday thing.</span></div>
+                        <h1 class="mb-4">
+                            <div class="text">Make<p>“feeling good”</p><span>an everyday thing.</span></div>
                         </h1>
                         <p class="mb-4">A personalised health subscription that puts you first. Your daily dose of health & happiness delivered to your door with Aiwo.</p>
                         <a href="#" class="btn btn-primary rounded-pill">Take the Quize!</a>
@@ -124,7 +135,7 @@
                         <img src="./assets/img/clients/3.webp" alt="">
                     </div>
                 </div>
-                 <div class="col-sm-6 col-lg-3 py-3 wow zoomIn">
+                <div class="col-sm-6 col-lg-3 py-3 wow zoomIn">
                     <div class="img-place client-img">
                         <img src="./assets/img/clients/1.webp" alt="">
                     </div>
@@ -255,30 +266,27 @@
     </div>
     <!-- about us start-->
     <div id="about" class="page-hero-section bg-image hero-home-2" style="background-image: url(./assets/img/bg_hero_2.svg);">
-  <div class="hero-caption">
-    <div class="container fg-white h-100">
-      <div class="row align-items-center h-100">
-        <div class="col-lg-6 wow fadeInUp">
-          <div class="badge badge-soft mb-2">About us</div>
-          <h1 class="mb-4 ">|Way towards a healthy lifestyle.</h1>
-          <p class="mb-4">We are AIWO, companion in every step of the
-way towards a healthy lifestyle..</p>
-
-          <a href="#" class="btn btn-dark">Get Test</a>
-
+        <div class="hero-caption">
+            <div class="container fg-white h-100">
+                <div class="row align-items-center h-100">
+                    <div class="col-lg-6 wow fadeInUp">
+                        <div class="badge badge-soft mb-2">About us</div>
+                        <h1 class="mb-4 ">|Way towards a healthy lifestyle.</h1>
+                        <p class="mb-4">We are AIWO, companion in every step of the
+                            way towards a healthy lifestyle..</p>
+                        <a href="#" class="btn btn-dark">Get Test</a>
+                    </div>
+                    <div class="col-lg-6 d-none d-lg-block wow zoomIn">
+                        <div class="img-place mobile-preview shadow floating-animate">
+                            <img src="./assets/img/app_showcase.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-6 d-none d-lg-block wow zoomIn">
-          <div class="img-place mobile-preview shadow floating-animate">
-            <img src="./assets/img/app_showcase.png" alt="">
-          </div>          
-        </div>
-      </div>
     </div>
-  </div>
-</div>
-
     <!-- abou us end -->
-    <div  class="page-section bg-image" style="background-image: url(./assets/img/pattern_2.svg);">
+    <div class="page-section bg-image" style="background-image: url(./assets/img/pattern_2.svg);">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-5 mb-5 mb-lg-0 wow fadeInUp">
@@ -299,13 +307,6 @@ way towards a healthy lifestyle..</p>
                             </div>
                             <div class="pricing-body">
                                 <p>deal method to get deeper insight on your health. AIWO tests gets you started on your wellness journey.</p>
-                                <!-- <ul class="theme-list">
-                <li class="list-item">Push Notification</li>
-                <li class="list-item">Unlimited Bandwith</li>
-                <li class="list-item">Realtime Database</li>
-                <li class="list-item">Monthly Backup</li>
-                <li class="list-item">24/7 Support</li>
-              </ul> -->
                             </div>
                             <button class="btn btn-dark">Choose Plan</button>
                         </div>
@@ -316,13 +317,6 @@ way towards a healthy lifestyle..</p>
                             </div>
                             <div class="pricing-body">
                                 <p>Stop worrying about the what, how and when. From your office ritual to your travel plans, the sachets will be your new partner. </p>
-                                <!--  <ul class="theme-list">
-                <li class="list-item">Push Notification</li>
-                <li class="list-item">Unlimited Bandwith</li>
-                <li class="list-item">Realtime Database</li>
-                <li class="list-item">Monthly Backup</li>
-                <li class="list-item">24/7 Support</li>
-              </ul> -->
                             </div>
                             <button class="btn btn-dark">Choose Plan</button>
                         </div>
@@ -340,7 +334,6 @@ way towards a healthy lifestyle..</p>
                     </h2>
                     <p class="blackj fs-large font-italic"><b>Supplements at affordable cost</b>“This is the best site I would recommend for the customers to buy supplements at affordable cost I've ordered vitamin D and I'm very much satisfied with the product and delivery. Thanks to aiwo”</p>
                     <p class="blackj fs-large fg-grey fw-medium mb-5">-Prasad Iyer <br> | Software engineer</p>
-                            
                 </div>
             </div>
         </div>
@@ -370,7 +363,7 @@ way towards a healthy lifestyle..</p>
                             <textarea rows="6" class="form-control" id="message"></textarea>
                         </div>
                         <div class="form-group mt-4 wow fadeInUp">
-                            <button type="submit" class="btn btn-primary">Send Message</button>
+                            <button value="submit" type="submit" name="submit" class="btn btn-primary">Send Message</button>
                         </div>
                     </form>
                 </div>
@@ -380,38 +373,10 @@ way towards a healthy lifestyle..</p>
     <div class="page-footer-section bg-dark fg-white">
         <div class="container">
             <div class="row mb-5 py-3">
-                <div class="col-sm-6 col-lg-2 py-3">
-                    <h5 class="mb-3">Pages</h5>
-                    <ul class="menu-link">
-                        <li><a href="#" class="">Features</a></li>
-                        <li><a href="#" class="">Customers</a></li>
-                        <li><a href="#" class="">Pricing</a></li>
-                        <li><a href="#" class="">GDPR</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-lg-2 py-3">
-                    <h5 class="mb-3">Company</h5>
-                    <ul class="menu-link">
-                        <li><a href="#" class="">About</a></li>
-                        <li><a href="#" class="">Team</a></li>
-                        <li><a href="#" class="">Leadership</a></li>
-                        <li><a href="#" class="">Careers</a></li>
-                        <li><a href="#" class="">HIRING!</a></li>
-                    </ul>
-                </div>
                 <div class="col-md-6 col-lg-4 py-3">
-                    <h5 class="mb-3">Contact</h5>
-                    <ul class="menu-link">
-                        <li><a href="#" class="">Contact Us</a></li>
-                        <li><a href="#" class="">Office Location</a></li>
-                        <li><a href="#" class="">hello@mobster.com</a></li>
-                        <li><a href="#" class="">support@macodeid.com</a></li>
-                        <li><a href="#" class="">+808 11233 900</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-6 col-lg-4 py-3">
-                    <h5 class="mb-3">Subscribe</h5>
-                    <p>Get some offers, news, or update features of application</p>
+                    <h5 class="mb-3">Contact Us</h5>
+                    <p>info@Aiwo.com</p>
+                    <p>1800 572 2496</p>
                     <form method="POST">
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Your email..">
@@ -435,8 +400,7 @@ way towards a healthy lifestyle..</p>
             <div class="row">
                 <div class="col-12 col-md-6 py-2">
                     <img src="./assets/favicon-light.png" alt="" width="40">
-                    <!-- Please don't remove or modify the credits below -->
-                    <p class="d-inline-block ml-2">Copyright &copy; <a href="https://www.macodeid.com/" class="fg-white fw-medium">MACode ID</a>. All rights reserved</p>
+                    <p class="d-inline-block ml-2">Copyright &copy; <a href="https://github.com/Jeeva0123/" class="fg-white fw-medium">Jeeva.T_Aiwo_Digital</a>. All rights reserved</p>
                 </div>
                 <div class="col-12 col-md-6 py-2">
                     <ul class="nav justify-content-end">
